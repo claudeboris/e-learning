@@ -1,0 +1,18 @@
+.image-enseign {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.title_enseign {
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.info-enseign {
+    text-align: center;
+}
