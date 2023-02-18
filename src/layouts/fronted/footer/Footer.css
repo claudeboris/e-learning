@@ -1,0 +1,15 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    cursor: 'pointer';
+    padding: '0';
+}
+
+.column a{
+    text-decoration: none;
+    color: black !important;
+}
+
+.title-logo{
+    text-decoration: none !important;
+}
