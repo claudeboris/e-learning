@@ -25,10 +25,10 @@ function Header() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link className='link_header' href="#action1">Home</Nav.Link>
+                  <Nav.Link className='link_header' href="/">Home</Nav.Link>
                   <Nav.Link className='link_header' href="#action2">About</Nav.Link>
                   <Nav.Link className='link_header' href="/contact">Contact</Nav.Link>
-                  <Button className="button_header" href='/se-connecter'>Se connecter</Button>
+                  <Button className="button_header" href='/connexion'>Se connecter</Button>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
