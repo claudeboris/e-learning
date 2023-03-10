@@ -11,7 +11,7 @@ import {
 from 'mdb-react-ui-kit';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import './Register.css'
-import image from "../../../assets/images/image01.jpg"
+import image from "../../../../assets/images/image01.jpg"
 
 function Register() {
   return (
@@ -22,7 +22,7 @@ function Register() {
 
           <div className='d-flex flex-row ps-5 pt-5' style={{margin: "0 auto"}}>
             <MDBIcon fas icon="crow fa-3x me-3" style={{ color: '#709085' }}/>
-            <span className="h1 fw-bold mb-0">Eat Easy</span>
+            <span className="h1 fw-bold mb-0">It's Easy</span>
           </div>
 
           <div className='d-flex flex-column justify-content-center h-custom-2 w-75 pt-4'>
@@ -47,8 +47,7 @@ function Register() {
               </div>
 
             <MDBBtn className="mb-4 px-5 mx-5 w-100 button-login" size='lg'>S'inscrire</MDBBtn>
-            <p className="small mb-6 pb-lg-3 ms-5"><a className="text-muted" href="#!">Mot de passe oublié?</a></p>
-            <p className='ms-5 mt-3 forgot'>Vous avez un compte? <a href="connexion" className="link-infos">Se connecter</a></p>
+            <p className='ms-5 '>Vous avez un compte? <a href="connexion" className="link-infos">Se connecter</a></p>
 
           </div>
 
@@ -56,7 +55,7 @@ function Register() {
 
         <MDBCol sm='6' className='d-none d-sm-block px-0 fixed'>
           <img src={image}
-            alt="Login image" className="w-100" style={{objectFit: 'cover', objectPosition: 'left'}} />
+            alt="Loginimage" className="w-100" style={{objectFit: 'cover', objectPosition: 'left'}} />
         </MDBCol>
 
       </MDBRow>

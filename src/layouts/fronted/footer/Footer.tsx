@@ -1,5 +1,5 @@
 import React from 'react';
-import { CDBContainer,  CDBBox, CDBBtn, CDBIcon } from 'cdbreact';
+import { CDBBox, CDBBtn, CDBIcon } from 'cdbreact';
 import './Footer.css'
 import image from "../../../assets/images/image01.jpg"
 
@@ -11,7 +11,7 @@ import image from "../../../assets/images/image01.jpg"
                 <CDBBox>
                   <a href="/" className="d-flex align-items-center p-0 text-dark title-logo">
                     <img alt="logo" src={image} width="30px" />
-                    <span className="ml-3 h5  font-weight-bold" style={{textDecoration: 'none', color: "#ed563b", marginLeft: "10px", marginTop: "5px"}}>EAT EASY</span>
+                    <span className="ml-3 h5  font-weight-bold" style={{textDecoration: 'none', color: "#ed563b", marginLeft: "10px", marginTop: "5px"}}>It's EASY</span>
                   </a>
                   <p className="my-3" style={{ width: '250px' }}>
                     We are creating High Quality Resources and tools to Aid developers during the

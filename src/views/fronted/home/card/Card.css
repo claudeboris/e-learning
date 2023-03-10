@@ -3,3 +3,8 @@
     color: white;
     border: #ed563b !important;
 }
+
+.card:hover {
+    cursor: pointer;
+    border-radius: 0 !important;
+}

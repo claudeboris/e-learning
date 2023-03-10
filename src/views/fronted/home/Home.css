@@ -49,3 +49,25 @@
     border-radius: 50%;
     margin-right: 35px;
 }
+
+.primaire:hover, .secondaire:hover, .universitaire:hover {
+    cursor: pointer;
+}
+
+/*
+*media queries
+*/
+
+
+@media only screen and (max-width: 970px) {
+    .section.matiere_generale.mb-4 .row, .section.matiere_technique.mb-4 {
+        margin-left: 25px !important;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .section.matiere_generale.mb-4 .row , .section.matiere_technique.mb-4{
+        margin-left: 5px !important;
+    }
+}
