@@ -104,7 +104,7 @@ function Header() {
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
-          <Button variant="primary">
+          <Button variant="primary" style={{background: "#ed563b"}}>
              Envoyer
           </Button>
         </Modal.Footer>

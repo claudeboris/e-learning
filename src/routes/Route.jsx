@@ -5,6 +5,7 @@ import Login from "../views/fronted/auth/login/Login";
 import Register from "../views/fronted/auth/register/Register";
 import Error400 from "../views/errors/400/Error400";
 import Masterlayout from "../layouts/admin/masterlayout/Masterlayout";
+import AdminLogin from "../views/admin/auth/login/login";
 
 export default function RouteF() {
     return (
@@ -15,6 +16,7 @@ export default function RouteF() {
                 <Route path="/inscription" element={<Register />} />
                 <Route path="/error.400" element={<Error400 />} />
                 <Route path="/dashboard/home" element={<Masterlayout />} />
+                <Route path="/admin.connexion" element={<AdminLogin />} />
             </Routes>
         </Router>
     )
