@@ -11,10 +11,10 @@ const Error404 = () => {
                     <div className="col-md-7">
                         <div className="form-input-content text-center error-page">
                             <h1 className="error-text fw-bold">404</h1>
-                            <h4><i className="fa fa-exclamation-triangle text-warning"></i> The page you were looking for is not found!</h4>
-                            <p>You may have mistyped the address or the page may have moved.</p>
+                            <h4><i className="fa fa-exclamation-triangle text-warning"></i> La page recherchée est introuvable !</h4>
+                            <p>Il se peut que vous ayez mal saisi l'adresse ou que la page ait été déplacée.</p>
                             <div>
-                                <Link className="btn" style={{backgroundColor: '#ed563b', color: 'white'}} to="/">Back to Home</Link>
+                                <Link className="btn" style={{backgroundColor: '#ed563b', color: 'white'}} to="/">Retour à l'accueil</Link>
                             </div>
                         </div>
                     </div>

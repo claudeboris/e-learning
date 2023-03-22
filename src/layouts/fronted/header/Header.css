@@ -1,3 +1,7 @@
+.body {
+    overflow-y: scroll;
+}
+
 .header_area {
     position: absolute !important;
     top: 0;
@@ -42,6 +46,10 @@
 
 .offcanvas.offcanvas-end {
     width: 40% !important;
+}
+
+.modal-open {
+    overflow-y: scroll !important;
 }
 
 @media only screen and (max-width: 530px) {

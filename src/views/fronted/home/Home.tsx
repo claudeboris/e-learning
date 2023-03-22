@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 import './Home.css'
 import BasicCard from "./card/Card";
 import Footer from "../../../layouts/fronted/footer/Footer"
+import { Link } from "react-router-dom";
 
 function SampleNextArrow(props: any) {
     const { className, style, onClick } = props;
@@ -146,27 +147,27 @@ export default function Home(props: any) {
             <section className="section" id="section-enseignement">
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-md-4 col-sm-6 primaire">
+                        <Link to="enseignement/primaire" className="col-md-4 col-sm-6 primaire">
                             <img className="image-enseign" src={image01} alt="enseignement" />
                             <h1 className="title_enseign">Enseignements primaires</h1>
                             <p className="info-enseign">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ad ducimus quis architecto at et quisquam temporibus nam iste minus, nulla voluptas itaque accusantium sed quidem dicta modi ipsum eligendi.
                             </p>
-                        </div>
-                        <div className="col-md-4 col-sm-6 secondaire">
-                           <img className="image-enseign"  src={image01} alt="enseignement" />
+                        </Link>
+                        <Link to="enseignement/secondaire" className="col-md-4 col-sm-6 secondaire">
+                            <img className="image-enseign"  src={image01} alt="enseignement" />
                             <h1 className="title_enseign">Enseignements secondaires</h1>
                             <p className="info-enseign">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ad ducimus quis architecto at et quisquam temporibus nam iste minus, nulla voluptas itaque accusantium sed quidem dicta modi ipsum eligendi.
                             </p>
-                        </div>
-                        <div className="col-md-4 universitaire">
+                        </Link>
+                        <Link to="enseignement/universitaire" className="col-md-4 universitaire">
                             <img className="image-enseign"  src={image01} alt="enseignement" />
                             <h1 className="title_enseign">Enseignements universitaires</h1>
                             <p className="info-enseign">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ad ducimus quis architecto at et quisquam temporibus nam iste minus, nulla voluptas itaque accusantium sed quidem dicta modi ipsum eligendi.
                             </p>
-                        </div>
+                        </Link>
                     </div>
                 </div>
             </section> 

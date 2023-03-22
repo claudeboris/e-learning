@@ -1,0 +1,85 @@
+.body-enseignement .header_area {
+    top: 50px !important;
+    background: white !important;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.body-enseignement .header_area  a {
+    color: black !important;
+}
+
+.body-enseignement .title_header.navbar-brand {
+    color: #ed563b !important;
+}
+
+.body-enseignement a.button_header {
+    background-color: black !important;
+    color: white !important;
+}
+
+.header-top {
+    width: 100%;
+}
+
+.header-top .col-md-6 {
+    height: 30px;
+    padding: 25px;
+    transform: skew(-20deg);
+}
+
+.contact {
+    background: #ed563b;
+}
+
+.header-top .icon {
+    background: black;
+}
+/*
+.baniere-image {
+    height: 500px;
+}
+
+.baniere-image img {
+    height: 100%;
+    width: 100%;
+}
+*/
+.hero {
+    position: relative; 
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black !important;
+}
+
+.hero::before {    
+      content: "";
+      background-image: url('../../../assets/images/image02.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.75;
+}
+
+.hero h1 {
+  position: relative;
+  color: #ffffff;  
+  font-size: 2rem;
+  line-height: 0.9;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .body-enseignement .header_area {
+        top: 100px !important;
+    }
+
+    .header-top .col-md-6 {
+        transform: skew(0deg);
+    }
+}
